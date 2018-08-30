@@ -28,19 +28,17 @@ module.exports.http = {
     * (This Sails app's routes are handled by the "router" middleware below.)  *
     *                                                                          *
     ***************************************************************************/
-    addCount: require('sails-count-middleware'),
 
-    order: [
-      'addCount',
-      'cookieParser',
-      'session',
-      'bodyParser',
-      'compress',
-      'poweredBy',
-      'router',
-      'www',
-      'favicon',
-    ],
+    // order: [
+    //   'cookieParser',
+    //   'session',
+    //   'bodyParser',
+    //   'compress',
+    //   'poweredBy',
+    //   'router',
+    //   'www',
+    //   'favicon',
+    // ],
 
 
     /***************************************************************************
