@@ -1,4 +1,4 @@
-# vue-sails-mongo-todo
+# vue-sails-todo
 
 ## About
 
@@ -24,7 +24,7 @@ Demonstrates:
 
 ### Components
 
-- express - backend and data provider
+- sails - backend and data provider, ruby on rails inspired framework
 - vue.js - frontend framework
 - vuex - state management for vue.js
 - bootstrap vue - frontend design framework
