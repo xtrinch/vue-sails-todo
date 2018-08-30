@@ -1,0 +1,21 @@
+// disregard, work in progress
+
+version: '3'
+services:
+    mongodb:
+        image: mongo
+        ports:
+            - "27017:27017"
+
+    server:
+        build: .
+        depends_on:
+            - "mongodb"
+        command: "npm run start:prod"
+        ports: 
+            - "8004:8004"
+        environment:
+            - NODE_ENV=production
+            - PORT=8004
+            - MONGO_NAME=mongodb
+
