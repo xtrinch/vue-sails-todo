@@ -12,11 +12,11 @@ Demonstrates:
 
 ### Frontend
 
-- run `npm start` in `web`
+- run `npm start` in `frontend`
 
 ### Backend
 
-- run `sails lift` in `server`
+- run `npm start` in `backend`
 
 ### Database
 
