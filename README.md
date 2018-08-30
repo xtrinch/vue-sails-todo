@@ -20,6 +20,7 @@ Demonstrates:
 
 ### Database
 
+- with sails.js it's really easy to switch databases, just choose a different adapter, I chose mongodb for this example
 - make sure you have mongodb installed and running at `localhost:27018`
 
 ### Components
