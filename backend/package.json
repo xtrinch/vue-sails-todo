@@ -11,12 +11,11 @@
     "async": "2.0.1",
     "grunt": "1.0.1",
     "sails": "^1.0.2",
-    "sails-count-middleware": "^1.0.6",
     "sails-hook-grunt": "^3.0.2",
     "sails-hook-orm": "^2.0.0-16",
-    "sails-hook-pagify": "^0.2.0",
     "sails-hook-sockets": "^1.4.0",
-    "sails-mongo": "^1.0.1"
+    "sails-mongo": "^1.0.1",
+    "sails-pagination-middleware": "0.0.1"
   },
   "devDependencies": {
     "@sailshq/eslint": "^4.19.3",

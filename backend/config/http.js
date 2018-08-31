@@ -55,9 +55,12 @@ module.exports.http = {
     //   return middlewareFn;
     // })(),
 
-    addCount: require('sails-count-middleware'),  
+    //addCount: require('sails-count-middleware'),  
+    paginate: require('sails-pagination-middleware'),  
+
     order: [
-      'addCount',
+      //'addCount',
+      'paginate',
     ],
 
   },
