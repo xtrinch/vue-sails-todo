@@ -7,6 +7,7 @@ Demonstrates:
 - routing with vue-router
 - state management with vuex
 - using bootstrap-vue for easier design
+- async / await instead of promises
 
 ## Usage in development
 
