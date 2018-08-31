@@ -9,7 +9,7 @@ export default {
   },
 
   async editTodo (context, todo) {
-    const response = await Api().put('todos/' + todo.id, todo)
+    const response = await Api().patch('todos/' + todo.id, todo)
     context.commit('SET_TODO', response.data)
     await context.dispatch('getTodos')
   },

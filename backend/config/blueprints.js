@@ -40,6 +40,6 @@ module.exports.blueprints = {
 
   prefix: '/api', 
   pluralize: true,  
-  actions: true,
+  //actions: true,
 
 };

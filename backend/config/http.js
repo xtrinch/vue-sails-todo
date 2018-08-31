@@ -61,6 +61,14 @@ module.exports.http = {
     order: [
       //'addCount',
       'paginate',
+      'cookieParser',
+      'session',
+      'bodyParser',
+      'compress',
+      'poweredBy',
+      'router',
+      'www',
+      'favicon',
     ],
 
   },
