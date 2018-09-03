@@ -9,11 +9,14 @@
     "@sailshq/lodash": "^3.10.3",
     "@sailshq/socket.io-redis": "^5.2.0",
     "async": "2.0.1",
+    "express-validator": "^5.3.0",
     "grunt": "1.0.1",
     "sails": "^1.0.2",
+    "sails-hook-custom-blueprints": "^1.0.0",
     "sails-hook-grunt": "^3.0.2",
     "sails-hook-orm": "^2.0.0-16",
     "sails-hook-sockets": "^1.4.0",
+    "sails-hook-validation-ev": "0.0.2",
     "sails-mongo": "^1.0.1",
     "sails-pagination-middleware": "0.0.2"
   },
@@ -22,7 +25,7 @@
     "nodemon": "^1.18.4"
   },
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "nodemon --preserve-symlinks app.js",
     "start:prod": "NODE_ENV=production node app.js",
     "test": "npm run lint && npm run custom-tests && echo 'Done.'",
     "lint": "eslint . --max-warnings=0 --report-unused-disable-directives && echo '✔  Your .js files look good.'",

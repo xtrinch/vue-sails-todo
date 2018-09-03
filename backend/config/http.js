@@ -57,9 +57,10 @@ module.exports.http = {
 
     //addCount: require('sails-count-middleware'),  
     paginate: require('sails-pagination-middleware'),  
+    //validate: require('sails-validation-middleware'),  
 
     order: [
-      //'addCount',
+      //'validate',
       'paginate',
       'cookieParser',
       'session',

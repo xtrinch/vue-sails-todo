@@ -5,6 +5,9 @@
  * @docs        :: https://sailsjs.com/docs/concepts/models-and-orm/models
  */
 
+//const { check, validationResult } = require('express-validator/check');
+
+
 module.exports = {
 
   attributes: {
@@ -32,6 +35,11 @@ module.exports = {
     //  ╩ ╩╚═╝╚═╝╚═╝╚═╝╩╩ ╩ ╩ ╩╚═╝╝╚╝╚═╝
 
   },
-
+  validate: (req) => {
+    req.check('title')
+      .exists()
+      .isLength({ min: 1 }).withMessage('must be at least 5 chars long');
+    req.check('description').exists();
+  }
 };
 
